@@ -8,13 +8,13 @@ class Functions {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter the value of a:");
+        System.out.println("Enter the value of a:");
         int a = sc.nextInt();
-        // System.out.println("Enter the value of b:");
+        System.out.println("Enter the value of b:");
         int b = sc.nextInt();
 
         int sum = calculateSum(a, b); // Calling the function to calculate sum
-        System.out.println("SUm of two numbers is" + sum);
+        System.out.println("Sum of two numbers is: " + sum);
     }
 
 }
