@@ -8,9 +8,9 @@ class Sum {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter two integers to calculate their sum:");
-        // Taking input from the user
+        System.out.println("Enter the value of a:");
         int a = sc.nextInt();
+        System.out.println("Enter the value of b:");
         int b = sc.nextInt();
         int sum = calculateSum(a, b); // Calling the function to calculate sum
         System.out.println(sum);
